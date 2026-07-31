@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden | Products</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="bg-green-50">
+
+    <!-- NAVBAR -->
+
+    <nav class="bg-green-700 text-white shadow-lg sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+
+            <h1 class="text-3xl font-bold flex items-center gap-2">
+                <i class="fa-solid fa-seedling text-green-300"></i>
+                Greenden
+            </h1>
+            <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+            <ul class="hidden md:flex gap-8 font-medium">
+                <li><a href="index.html" class="hover:text-green-200">Home</a></li>
+                <li><a href="products.html" class="hover:text-green-200">Products</a></li>
+                <li><a href="contact.html" class="hover:text-green-200">Contact</a></li>
+            </ul>
+
+            <label for="menu-toggle" class="md:hidden text-3xl cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <div
+                class="fixed top-0 right-0 h-full w-64 bg-green-800 transform translate-x-full peer-checked:translate-x-0 transition-transform duration-300 md:hidden shadow-2xl">
+
+                <div class="flex justify-end p-5">
+                    <label for="menu-toggle" class="text-3xl cursor-pointer">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </div>
+
+                <ul class="flex flex-col gap-8 text-xl px-8 mt-10">
+
+                    <li>
+                        <a href="index.html" class="hover:text-green-300">
+                            <i class="fa-solid fa-house mr-2"></i> Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html" class="hover:text-green-300">
+                            <i class="fa-solid fa-leaf mr-2"></i> Products
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="hover:text-green-300">
+                            <i class="fa-solid fa-envelope mr-2"></i> Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- TITLE -->
+
+    <section class="text-center py-12">
+
+        <h1 class="text-5xl font-bold text-green-800">
+            Our Plant Collection
+        </h1>
+
+        <p class="mt-4 text-gray-600">
+            Choose from our wide variety of indoor and outdoor plants.
+        </p>
+
+    </section>
+
+    <!-- SEARCH BAR -->
+
+    <section class="max-w-xl mx-auto px-6 mb-10">
+
+        <input type="text" placeholder="Search plants..."
+            class="w-full border-2 border-green-700 rounded-lg px-5 py-3 outline-none">
+
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section class="max-w-7xl mx-auto px-6 pb-16">
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+            <!-- Product 1 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/aloe-vera.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Aloe Vera</h3>
+                    <p class="text-green-700 font-bold mt-2">$299</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/snake-plant.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Snake Plant</h3>
+                    <p class="text-green-700 font-bold mt-2">$399</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/money-plant.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Money Plant</h3>
+                    <p class="text-green-700 font-bold mt-2">$349</p>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/peace-lily.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Peace Lily</h3>
+                    <p class="text-green-700 font-bold mt-2">$499</p>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/bamboo-plant.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Bamboo Plant</h3>
+                    <p class="text-green-700 font-bold mt-2">$450</p>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/aglaonema-lipstick-plant.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Aglaonema Lipstick Plant</h3>
+                    <p class="text-green-700 font-bold mt-2">$599</p>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/spider-plant.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">pider Plant</h3>
+                    <p class="text-green-700 font-bold mt-2">$250</p>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <img src="images/areca-palm.jpg" class="h-64 w-full object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl">Areca Palm</h3>
+                    <p class="text-green-700 font-bold mt-2">$699</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-green-800 text-white py-8">
+
+        <div class="text-center">
+
+            <h2 class="text-3xl font-bold flex items-center gap-2">
+                <i class="fa-solid fa-seedling text-green-300"></i>
+                Greenden
+            </h2>
+
+            <p class="mt-3">
+                Healthy Plants | Happy Homes
+            </p>
+
+            <p class="mt-5 text-sm">
+                © 2026 Greenden. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
